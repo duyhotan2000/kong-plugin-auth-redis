@@ -1,9 +1,9 @@
 # kong-plugin-auth-redis
-A Kong plugin, provide authentication for requests by checking token in Redis and send JWT token to corresponding endpoint__
+A Kong plugin, provide authentication for requests by checking token in Redis and send JWT token to corresponding endpoint. 
 
-
-Simple auth flow of this plugin__
-![image](https://user-images.githubusercontent.com/10768153/140670463-7d1fdeb9-8de9-49db-9d38-558e7cf01db3.png)__
+  
+Simple auth flow of this plugin. 
+![image](https://user-images.githubusercontent.com/10768153/140670463-7d1fdeb9-8de9-49db-9d38-558e7cf01db3.png). 
 
 1. Client sends a request with a bearer opaque token.
 2. Kong forwards the request to the plugin.
